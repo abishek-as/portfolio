@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69553df6.css",
+    "main.js": "/static/js/main.e08b847e.js",
+    "static/media/HeroImage.jpeg": "/static/media/HeroImage.c5e4ac16b6ca7e289504.jpeg",
+    "static/media/school.png": "/static/media/school.72bc5d5f62763a79128c.png",
+    "static/media/vit.png": "/static/media/vit.73abefdd7521ea2981a2.png",
+    "index.html": "/index.html",
+    "main.69553df6.css.map": "/static/css/main.69553df6.css.map",
+    "main.e08b847e.js.map": "/static/js/main.e08b847e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69553df6.css",
+    "static/js/main.e08b847e.js"
+  ]
+}
