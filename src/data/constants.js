@@ -1,3 +1,6 @@
+import ecom_homepage from "../images/ecom_homepage.png";
+import pdfprompt_homepage from "../images/pdfprompt_homepage.png";
+import realtor_homepage from "../images/realtor_homepage.png";
 import school_image from "../images/school.png";
 import vitlogo from "../images/vit.png";
 
@@ -205,8 +208,19 @@ export const experiences = [
         role: "Software Engineer Intern",
         company: "Stryker",
         date: "Sep 2022 - July 2023",
-        desc: "Proficiently developed over 100 automation test cases using PyTest Framework, ensuring comprehensive validation of diverse test scenarios. Successfully implemented Flask-based mock for 10+ dependent services, resulting in isolated and accurate testing of microservices. Conducted rigorous local testing of automation test cases alongside 5 active mocks, ensuring robustness and identifying critical issues in microservices. Demonstrated expertise in streamlining testing and deployment processes using Docker, reducing deployment time by 30% and enhancing overall efficiency. Collaborated effectively with 4 team members, utilizing GitLab repository and implementing a CI/CD pipeline, resulting in 20% reduction in code conflicts and seamless automated deployment of microservices.",
-        skills: ["Jira", "Flask", "PyTest", "Docker", "Linux", "GitLab"],
+        desc: "Developed microservices using Django and Flask frameworks to create efficient APIs, with PostgreSQL as the database. Utilized Git and GitLab for source code version control to manage and collaborate on project codebase effectively. Containerized microservices using Docker for seamless deployment and scalability. Managed the CI/CD pipeline using GitLab to automate the building, testing, and deployment of code. Conducted unit testing using the unittest framework for robust code quality, and implemented automation testing with PyTest in Docker containers within the GitLab pipeline. Created mock services using Flask to facilitate testing and development in isolation. I meticulously managed my tasks and logged my hours using JIRA, maintaining an organized workflow throughout the project.",
+        skills: [
+            "Django",
+            "Flask",
+            "PostgreSQL",
+            "Git",
+            "unittest",
+            "PyTest",
+            "Docker",
+            "Linux",
+            "GitLab",
+            "JIRA",
+        ],
         doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
     // {
@@ -325,17 +339,54 @@ export const education = [
 export const projects = [
     {
         id: 0,
+        title: "PDFPrompt",
+        date: "Oct 2023",
+        description:
+            "PDFPrompt is a comprehensive SaaS application designed to streamline the management and interaction with PDF documents. It offers a range of features, including secure sign-in and sign-up using Kindle authentication, enabling users to upload and delete PDFs effortlessly. The application utilizes AI technology to automatically summarize PDF content and facilitate natural language interactions, allowing users to ask questions related to the document and receive accurate responses. Additionally, PDFPrompt provides subscription management through Stripe, offering access to premium features. The user-friendly frontend is built using React and Shadcn-ui, while the responsive backend relies on tRPC and the Next.js framework, ensuring efficient handling of PDF documents and a seamless user experience. Overall, PDFPrompt simplifies the way users work with PDFs, making it an indispensable tool for document management and information retrieval.",
+        image: pdfprompt_homepage,
+        tags: [
+            "React.js",
+            "Next.js",
+            "Tailwind CSS",
+            "Kinde Auth",
+            "shadcn-ui",
+            "OpenAI",
+            "Stripe",
+            "MySQL",
+            "Prisma",
+            "PlanetScale",
+            "TypeScript",
+            "UploadThing",
+        ],
+        category: "web app",
+        github: "https://github.com/abishek-as/PDFPrompt",
+        webapp: "https://pdf-prompt.vercel.app",
+    },
+    {
+        id: 1,
+        title: "RealTor",
+        date: "Oct 2023",
+        description:
+            "RealTor is a feature-rich house real estate application designed to simplify the property search and management process. Users can create accounts with ease, either through traditional signup or by using Google OAuth for added convenience. Once logged in, they have the power to create, update, and delete property listings, providing essential information such as property names, descriptions, addresses, rental or sale pricing, number of bedrooms and bathrooms, parking availability, and furnishing details. To make listings more appealing, users can upload up to six images per property. Personalization is also a priority, allowing users to edit their usernames, email addresses, passwords, and avatars. For those seeking to discontinue their usage, account deletion is an option. When browsing property listings, users can swiftly access crucial information, including property names, descriptions, pricing, and key features, along with the ability to easily contact property owners for inquiries. RealTor delivers a seamless, all-in-one solution for navigating the complex world of real estate.",
+        image: realtor_homepage,
+        tags: ["NodeJs", "express", "React.js", "MongoDB", "Firebase", "vite"],
+        category: "web app",
+        github: "https://github.com/abishek-as/realtor.git",
+        webapp: "https://realtor-akaj.onrender.com/",
+    },
+    {
+        id: 2,
         title: "Full Stack E-Commerce + Dashboard & CMS Project",
         date: "Aug 2023",
         description:
             "I utilize Shadcn UI for the administration interface. The admin dashboard serves as a versatile system for CMS, admin functions, and API operations. Multiple vendors and stores are efficiently managed through this centralized CMS, with automated API route generation for each. Comprehensive management of categories, products, filters, and image updates is handled seamlessly. Administration includes overseeing 'Billboards' and their associations with categories or standalone displays. Implementation of a robust search functionality across various aspects, complete with pagination features. Oversight of featured products on the homepage, order management, and sales monitoring with revenue tracking through graphical representation. Authentication is managed using Clerk. Order creation is streamlined, integrating Stripe checkout and webhooks for efficient processing. Database setup is established using MySQL, Prisma, and PlanetScale for optimal performance and reliability.",
-        image: "https://github.com/abishek-as/ecommerce-dashboard-cms/blob/main/HomePage.png?raw=true",
+        image: ecom_homepage,
         tags: [
             "React.js",
             "Next.js",
             "Tailwind",
-            "Clerk",
-            "shadcn/ui",
+            "Clerk Auth",
+            "shadcn-ui",
             "Stripe",
             "MySQL",
             "Prisma",
@@ -344,11 +395,11 @@ export const projects = [
             "TypeScript",
         ],
         category: "web app",
-        github: "https://github.com/rishavchanda/Trackify",
-        webapp: "https://trackify.duckdns.org",
+        github: "https://github.com/abishek-as/ecommerce-store",
+        webapp: "https://ecommerce-store-theta-gray.vercel.app",
     },
     {
-        id: 1,
+        id: 3,
         title: "Audio Classification using Deep Learning",
         date: "March 2022",
         description:
@@ -366,7 +417,7 @@ export const projects = [
         webapp: "https://github.com/abishek-as/Audio-Classification-Deep-Learning",
     },
     {
-        id: 2,
+        id: 4,
         title: "blockVote",
         date: "March 2022",
         description:
@@ -378,7 +429,7 @@ export const projects = [
         webapp: "https://github.com/abishek-as/Voting-System-based-on-Blockchain",
     },
     {
-        id: 3,
+        id: 5,
         title: "Netflix Movie Recommendation",
         date: "March 2022",
         description:
@@ -395,7 +446,7 @@ export const projects = [
         webapp: "https://github.com/abishek-as/Netflix-Movie-Recommendation",
     },
     {
-        id: 4,
+        id: 6,
         title: "Personal Companion",
         date: "March 2022",
         description:
