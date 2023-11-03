@@ -1,19 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.69553df6.css",
-    "main.js": "/portfolio/static/js/main.0c9cde7c.js",
+    "main.js": "/portfolio/static/js/main.13cd5187.js",
     "static/media/realtor_homepage.png": "/portfolio/static/media/realtor_homepage.1a2a5b6f6e7cb7b6cd86.png",
     "static/media/ecom_homepage.png": "/portfolio/static/media/ecom_homepage.6a88f103a29fda3f989f.png",
     "static/media/pdfprompt_homepage.png": "/portfolio/static/media/pdfprompt_homepage.240689c15d1066af1a39.png",
     "static/media/HeroImage.jpeg": "/portfolio/static/media/HeroImage.c5e4ac16b6ca7e289504.jpeg",
+    "static/media/pc_homepage.jpg": "/portfolio/static/media/pc_homepage.2c617a306fad7db9176d.jpg",
+    "static/media/voting_homepage.png": "/portfolio/static/media/voting_homepage.b0c8a40014076012b2e1.png",
     "static/media/school.png": "/portfolio/static/media/school.72bc5d5f62763a79128c.png",
+    "static/media/recom.png": "/portfolio/static/media/recom.b11fe1e2ab85d960f8cc.png",
+    "static/media/acd_homepage.png": "/portfolio/static/media/acd_homepage.c52faf1a6fb8feb4594c.png",
     "static/media/vit.png": "/portfolio/static/media/vit.73abefdd7521ea2981a2.png",
     "index.html": "/portfolio/index.html",
     "main.69553df6.css.map": "/portfolio/static/css/main.69553df6.css.map",
-    "main.0c9cde7c.js.map": "/portfolio/static/js/main.0c9cde7c.js.map"
+    "main.13cd5187.js.map": "/portfolio/static/js/main.13cd5187.js.map"
   },
   "entrypoints": [
     "static/css/main.69553df6.css",
-    "static/js/main.0c9cde7c.js"
+    "static/js/main.13cd5187.js"
   ]
 }
