@@ -1,8 +1,12 @@
+import acd_homepage from "../images/acd_homepage.png";
 import ecom_homepage from "../images/ecom_homepage.png";
+import pc_homepage from "../images/pc_homepage.jpg";
 import pdfprompt_homepage from "../images/pdfprompt_homepage.png";
 import realtor_homepage from "../images/realtor_homepage.png";
+import recom from "../images/recom.png";
 import school_image from "../images/school.png";
 import vitlogo from "../images/vit.png";
+import voting_homepage from "../images/voting_homepage.png";
 
 export const Bio = {
     name: "Abishek A S",
@@ -404,7 +408,7 @@ export const projects = [
         date: "March 2022",
         description:
             "Audio classification or sound classification can be referred to as the process of analysing audio recordings. This amazing technique has multiple applications in the fields of AI and data science. In this project, we will explore audio classification using deep learning concepts involving algorithms like Artificial Neural Network (ANN), 1D Convolutional Neural Network (CNN1D), and CNN2D. The dataset contains 8732 labelled sound excerpts (=4s) of urban sounds from ten categories: air for audio prediction, car horns, children playing, dog barking, drilling, engine idling, gunshots, jackhammers, sirens, and street music are used for audio prediction. Before we develop models, we do some basic data preprocessing and feature extraction on audio signals. As a result, each model is compared in terms of accuracy, training time, and prediction time. This is explained by model deployment, where users are allowed to load a desired sound output for each model being deployed successfully, which will be discussed in detail.",
-        image: "https://github.com/abishek-as/Audio-Classification-Deep-Learning/raw/main/images/21.png",
+        image: acd_homepage,
         tags: [
             "Deep Learing",
             "Python",
@@ -422,7 +426,7 @@ export const projects = [
         date: "March 2022",
         description:
             "A voting system based on blockchain utilizes the decentralized and transparent nature of blockchain technology to securely and transparently record and manage votes in an election or decision-making process. Each vote is recorded as a transaction on the blockchain, ensuring immutability and tamper resistance. This system provides increased trust and integrity in the voting process by enabling every participant to independently verify the results, enhancing overall transparency and reducing the risk of fraud.",
-        image: "https://github.com/abishek-as/Voting-System-based-on-Blockchain/blob/main/homepage.png?raw=true",
+        image: voting_homepage,
         tags: ["JavaScript", "TypeScript", "Near Protocol", "HTML", "CSS"],
         category: "web app",
         github: "https://github.com/abishek-as/Voting-System-based-on-Blockchain",
@@ -434,7 +438,7 @@ export const projects = [
         date: "March 2022",
         description:
             "Our lives have been drastically altered as a result of the coronavirus pandemic. The general public is advised to keep a social distance and stay at home. So, besides online school and work, what do they do at home? They require some form of entertainment. We have no other options for entertainment besides watching TV, going to the movies, or engaging in indoor activities. Statistics show that the number of people watching movies on OTT services like Netflix has increased since the lockdown. So we gathered a dataset containing information such as movie title, cast, type, and ratings and used various algorithms to recommend films.",
-        image: "https://github.com/abishek-as/Netflix-Movie-Recommendation/blob/main/types_of_recomendation.png?raw=true",
+        image: recom,
         tags: [
             "Python",
             "Jupyter Notebook",
@@ -451,7 +455,7 @@ export const projects = [
         date: "March 2022",
         description:
             "The requirement for numerous functions in a single app is expanding and becoming important as the number of apps increases and challenges with maintainability and storage arise. 'Personal Companion,' the proposed solution, contains tools for keeping track of spending, taking notes, and calculating the user's steps. The database is SQLite, and the program is created with flutter. Flutter makes developing cross-platform apps simple. Flutter was the ideal choice for our solution because it is available on numerous platforms and has a shorter time to market. The expense tracker function is designed to keep track of spending by allowing users to enter transactions and generate bar charts that show the percentage of total expenses. The pedometer plugin is also used to calculate steps. It will also have goals (for motivating the user). Note-taking gives us a quick and simple notepad editing experience when we write notes, memos, emails, messages, shopping lists, and to-do lists..",
-        image: "https://github.com/abishek-as/Personal-Companion/raw/main/screenshots/1.jpg",
+        image: pc_homepage,
         tags: ["Flutter", "Dart", "SQLite", "Physical Activity"],
         category: "web app",
         github: "https://github.com/abishek-as/Personal-Companion",
