@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.69553df6.css",
-    "main.js": "/portfolio/static/js/main.13cd5187.js",
+    "main.js": "/portfolio/static/js/main.bd620b2f.js",
     "static/media/realtor_homepage.png": "/portfolio/static/media/realtor_homepage.1a2a5b6f6e7cb7b6cd86.png",
     "static/media/ecom_homepage.png": "/portfolio/static/media/ecom_homepage.6a88f103a29fda3f989f.png",
     "static/media/pdfprompt_homepage.png": "/portfolio/static/media/pdfprompt_homepage.240689c15d1066af1a39.png",
@@ -10,14 +10,15 @@
     "static/media/voting_homepage.png": "/portfolio/static/media/voting_homepage.b0c8a40014076012b2e1.png",
     "static/media/school.png": "/portfolio/static/media/school.72bc5d5f62763a79128c.png",
     "static/media/recom.png": "/portfolio/static/media/recom.b11fe1e2ab85d960f8cc.png",
+    "static/media/task_flow_homePage.png": "/portfolio/static/media/task_flow_homePage.74b09e7c90393905f5da.png",
     "static/media/acd_homepage.png": "/portfolio/static/media/acd_homepage.c52faf1a6fb8feb4594c.png",
     "static/media/vit.png": "/portfolio/static/media/vit.73abefdd7521ea2981a2.png",
     "index.html": "/portfolio/index.html",
     "main.69553df6.css.map": "/portfolio/static/css/main.69553df6.css.map",
-    "main.13cd5187.js.map": "/portfolio/static/js/main.13cd5187.js.map"
+    "main.bd620b2f.js.map": "/portfolio/static/js/main.bd620b2f.js.map"
   },
   "entrypoints": [
     "static/css/main.69553df6.css",
-    "static/js/main.13cd5187.js"
+    "static/js/main.bd620b2f.js"
   ]
 }
