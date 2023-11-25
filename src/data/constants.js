@@ -5,6 +5,7 @@ import pdfprompt_homepage from "../images/pdfprompt_homepage.png";
 import realtor_homepage from "../images/realtor_homepage.png";
 import recom from "../images/recom.png";
 import school_image from "../images/school.png";
+import task_flow_image from "../images/task_flow_homePage.png";
 import vitlogo from "../images/vit.png";
 import voting_homepage from "../images/voting_homepage.png";
 
@@ -14,7 +15,7 @@ export const Bio = {
     description:
         "I am a recent graduate with a passion for software development, specializing in full-stack and backend development with a strong focus on Python. I am enthusiastic about solving complex problems and creating innovative solutions to real-world challenges. My educational background, coupled with hands-on project experience, has equipped me with a solid foundation in software engineering principles and best practices.",
     github: "https://github.com/abishek-as",
-    resume: "https://drive.google.com/file/d/1B4cOgnNPX6aJOY4jzYIEdKVuNfx8Cr9f/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1xAlzUZnPqAIrRYyafd5JnX86iGMAliZl/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/abishek-as",
     twitter: "https://twitter.com/_Abisheksankar_",
     // insta: "https://www.instagram.com/abiishek.as/",
@@ -212,8 +213,9 @@ export const experiences = [
         role: "Software Engineer Intern",
         company: "Stryker",
         date: "Sep 2022 - July 2023",
-        desc: "Developed microservices using Django and Flask frameworks to create efficient APIs, with PostgreSQL as the database. Utilized Git and GitLab for source code version control to manage and collaborate on project codebase effectively. Containerized microservices using Docker for seamless deployment and scalability. Managed the CI/CD pipeline using GitLab to automate the building, testing, and deployment of code. Conducted unit testing using the unittest framework for robust code quality, and implemented automation testing with PyTest in Docker containers within the GitLab pipeline. Created mock services using Flask to facilitate testing and development in isolation. I meticulously managed my tasks and logged my hours using JIRA, maintaining an organized workflow throughout the project.",
+        desc: "Developed microservices using Django and Flask frameworks to create efficient APIs, with PostgreSQL as the database, following Agile development practices. Meticulously managed my tasks and logged my hours using JIRA, maintaining an organized workflow throughout the project. Produced comprehensive documentation for the developed microservices. Utilized Git and GitLab for source code version control to manage and collaborate on project codebase effectively. Leveraging the GitLab CI/CD pipeline to automate the building, testing, and deployment of code. Conducted unit testing using the unittest framework for robust code quality, and implemented automation testing with PyTest in Docker containers within the GitLab pipeline. Created mock services using Flask to facilitate testing and development in isolation.",
         skills: [
+            "Agile",
             "Django",
             "Flask",
             "PostgreSQL",
@@ -225,7 +227,7 @@ export const experiences = [
             "GitLab",
             "JIRA",
         ],
-        doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+        doc: "https://drive.google.com/file/d/1C4TdFoZh5lWoBVlDxMxxS8ZlUdBzx6ng/view?usp=sharing",
     },
     // {
     //     id: 0,
@@ -315,7 +317,7 @@ export const education = [
         id: 0,
         img: vitlogo,
         school: "Vellore Institute of Technology, Chennai",
-        date: "Oct 2021 - Sep 2025",
+        date: "July 2018 - May 2023",
         grade: "8.9 CGPA",
         desc: "I am currently pursuing a Master's degree in Software Engineering at Vellore Institute of Technology, Chennai. I have completed 4 semesters and have a CGPA of 8.9. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, Software Engineering, Requirements Engineering and Management, Software Project Management, Software Construction and Maintenance, Software Architecture and Design, Software Testing, Software Configuration Management and among others.",
         degree: "Master of Technology - MTech, Software Engineering",
@@ -343,6 +345,29 @@ export const education = [
 export const projects = [
     {
         id: 0,
+        title: "TaskFlow",
+        date: "Nov 2023",
+        description:
+            "TaskFlow is a feature-rich app enabling seamless organization collaboration through kanban-style boards, lists, and cards, backed by secure authentication, activity tracking, and Stripe-based subscriptions for unlimited board access. Powered by PostgreSQL, Prisma ORM, and styled with shadcnUI and TailwindCSS.",
+        image: task_flow_image,
+        tags: [
+            "React.js",
+            "Next.js",
+            "Tailwind CSS",
+            "Clerk Auth",
+            "shadcn-ui",
+            "Stripe",
+            "PostgreSQL",
+            "Prisma",
+            "Supabase",
+            "TypeScript",
+        ],
+        category: "web app",
+        github: "https://github.com/abishek-as/TaskFlow.git",
+        webapp: "https://task-flow-lac.vercel.app",
+    },
+    {
+        id: 1,
         title: "PDFPrompt",
         date: "Oct 2023",
         description:
@@ -367,7 +392,7 @@ export const projects = [
         webapp: "https://pdf-prompt.vercel.app",
     },
     {
-        id: 1,
+        id: 2,
         title: "RealTor",
         date: "Oct 2023",
         description:
@@ -379,7 +404,7 @@ export const projects = [
         webapp: "https://realtor-akaj.onrender.com/",
     },
     {
-        id: 2,
+        id: 3,
         title: "Full Stack E-Commerce + Dashboard & CMS Project",
         date: "Aug 2023",
         description:
@@ -403,7 +428,7 @@ export const projects = [
         webapp: "https://ecommerce-store-theta-gray.vercel.app",
     },
     {
-        id: 3,
+        id: 4,
         title: "Audio Classification using Deep Learning",
         date: "March 2022",
         description:
@@ -421,7 +446,7 @@ export const projects = [
         webapp: "https://github.com/abishek-as/Audio-Classification-Deep-Learning",
     },
     {
-        id: 4,
+        id: 5,
         title: "blockVote",
         date: "March 2022",
         description:
@@ -433,7 +458,7 @@ export const projects = [
         webapp: "https://github.com/abishek-as/Voting-System-based-on-Blockchain",
     },
     {
-        id: 5,
+        id: 6,
         title: "Netflix Movie Recommendation",
         date: "March 2022",
         description:
@@ -450,7 +475,7 @@ export const projects = [
         webapp: "https://github.com/abishek-as/Netflix-Movie-Recommendation",
     },
     {
-        id: 6,
+        id: 7,
         title: "Personal Companion",
         date: "March 2022",
         description:
